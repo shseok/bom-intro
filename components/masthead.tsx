@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef, useCallback, useState, useContext} from 'react';
 import Image from 'next/image';
 import {faCoffee} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
